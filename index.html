@@ -2,20 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Moviebox - Watch Movies and TV Shows - Watch Online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flim360 - Watch Movies & Series Free Online</title>
     <style>
-        body { font-family: Arial, sans-serif; background: #141414; color: #fff; text-align: center; padding: 20px; }
-        img { max-width: 300px; border-radius: 8px; margin-bottom: 20px; }
-        .player { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 800px; margin: auto; }
-        .player iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+        body { background-color: #0f0f0f; color: #ffffff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; }
+        header { background: #1a1a1a; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #e50914; sticky: top; }
+        .logo { font-size: 28px; font-weight: bold; color: #e50914; text-decoration: none; letter-spacing: 1px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; padding: 30px; max-width: 1300px; margin: auto; }
+        .card { background: #1a1a1a; border-radius: 8px; overflow: hidden; text-decoration: none; color: #fff; transition: transform 0.2s, box-shadow 0.2s; border: 1px solid #222; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(229, 9, 20, 0.4); border-color: #e50914; }
+        .card img { width: 100%; height: 260px; object-fit: cover; }
+        .card-title { padding: 10px; font-size: 14px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     </style>
 </head>
 <body>
-    <h1>Moviebox - Watch Movies and TV Shows</h1>
-    <img src="" alt="Moviebox - Watch Movies and TV Shows">
-    <h3>Watch Online:</h3>
-    <div class="player">
-        <iframe src="" allowfullscreen></iframe>
+    <header>
+        <a href="index.html" class="logo">FLIM360</a>
+    </header>
+    <h2 style="text-align: center; margin-top: 20px; color: #ccc;">Latest Movies & Dramas</h2>
+    <div class="grid">
+        
     </div>
 </body>
 </html>
